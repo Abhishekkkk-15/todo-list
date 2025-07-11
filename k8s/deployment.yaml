@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo_list
+  labels:
+    app: todo_list
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: todo_list
+  template:
+    metadata:
+      labels:
+        app: todo_list
+    spec:
+      containers:
+      - name: todo_list
+        image: abhishekkk15/todo_list:23423423
+        ports:
+        - containerPort: 3000
