@@ -56,7 +56,7 @@ jobs:
 
         git remote set-url origin "https://x-access-token:$env:GH_PAT@github.com/Abhishekkkk-15/todo_list.git"
 
-        git add k8s/deployment.yml
+        git add k8s/deployment.yaml
         git commit -m "Update image to $env:GITHUB_SHA"
         if ($LASTEXITCODE -ne 0) {
           Write-Output "No changes to commit"
