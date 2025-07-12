@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: todo_list_service
+  name: todolistservice
 spec:
   selector:
-    app: todo_list
+    app: todolist
   ports:
     - protocol: TCP
       port: 80
