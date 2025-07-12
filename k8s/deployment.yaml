@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todolist
-        image: abhishekkk15/todo_list:20250712110542
+        image: abhishekkk15/todo_list:20250712111643
         ports:
         - containerPort: 3000
