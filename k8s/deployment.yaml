@@ -15,7 +15,7 @@ spec:
         app: todolist
     spec:
       containers:
-      - name: todo_list
+      - name: todolist
         image: abhishekkk15/todo_list:23423423
         ports:
         - containerPort: 3000
